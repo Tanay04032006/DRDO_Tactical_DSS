@@ -14,7 +14,7 @@
 
 # DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # MODEL_PATH = Path("DRDO_Terrain_Dataset_7Channel/best_multitask_model.pth")
-# WEATHER_API_KEY = "91cdd7f383aff59b61bf1c72d24b7fb1"
+
 
 # # Normalize with the EXACT stats used in Phase II Training
 # GLOBAL_MEANS = [2000., 2000., 2000., 3000., 500., 15., 0.5]
@@ -229,7 +229,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_PATH = Path("DRDO_Terrain_Dataset_7Channel/best_multitask_model.pth")
-WEATHER_API_KEY = "91cdd7f383aff59b61bf1c72d24b7fb1"
+
 
 # Normalization constants (Must match Training Phase)
 GLOBAL_MEANS = [2000., 2000., 2000., 3000., 500., 15., 0.5]
